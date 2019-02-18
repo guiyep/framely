@@ -1,7 +1,7 @@
 import { isEmpty, isObject } from 'lodash';
 // const isEmpty = () => {};
 
-function requireErrorHandler(...args) {
+export function requireErrorHandler(...args) {
   const errorsSeparator = ', ';
   const noErrorIndicator = 'NOERROR';
   const errors = args
@@ -31,5 +31,3 @@ function requireErrorHandler(...args) {
 
   return undefined;
 }
-
-export default { requireErrorHandler };

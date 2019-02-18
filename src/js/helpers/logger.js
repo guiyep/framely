@@ -1,5 +1,1 @@
-function logger() {}
-
-export default {
-  logger
-};
+export function logger() {}

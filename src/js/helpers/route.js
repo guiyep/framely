@@ -1,4 +1,4 @@
-function buildRoute(listener) {
+export function buildRoute(listener) {
   return (routerObject) => {
     // TODO validate routerArray
     routerObject.listAll().forEach(({ route, type, callbacks }) => {
@@ -6,7 +6,3 @@ function buildRoute(listener) {
     });
   };
 }
-
-export default {
-  buildRoute
-};

@@ -1,10 +1,5 @@
-const preRoute = 'framely//';
+export const preRoute = 'framely//';
 
-function buildBaseRoute({ base = preRoute, apiName }) {
+export function buildBaseRoute({ base = preRoute, apiName }) {
   return `${base}${apiName}`;
 }
-
-export default {
-  buildBaseRoute,
-  preRoute
-};

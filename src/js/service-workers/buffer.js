@@ -13,7 +13,7 @@ while (queue.length > 0) {
   executor();
 }
 
-export default {
+const singleton = {
   createBufferSingleton: (exec) => {
     if (!executor) {
       executor = exec;
@@ -27,3 +27,5 @@ export default {
     };
   }
 };
+
+export default singleton;

@@ -7,3 +7,13 @@ It provides an easy api to create iframe interfaces and consume it as a normal C
 contact me on guiyep@gmail.com for any information or if you want to be part of this project.
 
 https://github.com/guiyep/framely
+
+# roadmap
+
+* make service worker call iframe with request/response
+* create POST req/response
+* create PUT req/response
+* create DELETE req/response
+
+# install 
+``` npm install --save framely ```
